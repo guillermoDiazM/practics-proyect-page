@@ -1,0 +1,38 @@
+<h1>Pagina para Alumno</h1>
+
+<form action="/alumno/agregar" method="POST">
+  <div>
+    <label for="nombre">Escribe tu nombre:</label>
+    <input type="text" name="nombre" placeholder="Name" id="nombre" />
+  </div>
+  <div>
+    <label for="paterno">Escribe tu apellido paterno: </label>
+    <input type="text" name="paterno" placeholder="Paternal" id="paterno" />
+  </div>
+  <div>
+    <label for="materno">Escribe tu apellido maternal: </label>
+    <input type="text" name="materno" placeholder="Maternal" id="materno" />
+  </div>
+  <div>
+    <label for="fechaNac">Selecciona tu fecha de nacimiento:</label>
+    <input type="date" name="fechaNac" placeholder="Date" value="2023-2-15" />
+  </div>
+  <div>
+    <label for="sexo">Selecciona tu sexo:</label>
+    <input type="radio" name="sexo" value="H" id="sexo" />
+    Hombre
+    <input type="radio" name="sexo" value="M" id="sexo" />
+    Mujer
+
+  </div>
+  <div>
+    <label for="celular">Escribe tu celular:</label>
+    <input type="text" name="celular" placeholder="Phone" id="celular" />
+  </div>
+  <div>
+    <label for="direccion">Escribe tu direccion:</label>
+    <textarea name="direccion" cols="30" rows="10" placeholder="Adress" id="direccion"></textarea>
+  </div>
+
+  <button>Agregar</button>
+</form>
